@@ -12,6 +12,9 @@
   padding: 10px;
   font-size: 15px;
   transition: all 250ms linear;
+  &::placeholder {
+    color: white;
+  }
   &:hover {
     border: 3px solid #936da8;
     background-color: #ffffff;

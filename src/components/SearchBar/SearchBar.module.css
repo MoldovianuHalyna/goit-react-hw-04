@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  outline: transparent;
+  border: 3px solid #843aaa;
+  background-color: #936da8;
+  border-radius: 4px;
+  width: 250px;
+  height: 10px;
+  padding: 10px;
+  font-size: 15px;
+  transition: all 250ms linear;
+  &:hover {
+    border: 3px solid #936da8;
+    background-color: #ffffff;
+  }
+}
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

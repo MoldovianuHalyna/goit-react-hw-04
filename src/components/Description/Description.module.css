@@ -1,0 +1,13 @@
+.descriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  padding: 10px;
+}
+.descriptionText {
+  margin: 2px;
+  font-weight: bold;
+}
+.descriptionSpan {
+  font-weight: normal;
+}

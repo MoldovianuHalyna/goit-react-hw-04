@@ -1,4 +1,5 @@
 import s from "./Description.module.css";
+
 const Description = ({ picture }) => {
   return (
     <div className={s.descriptionWrapper}>
@@ -7,7 +8,8 @@ const Description = ({ picture }) => {
         <span className={s.descriptionSpan}>{picture.alt_description}</span>
       </p>
       <p className={s.descriptionText}>
-        Likes:<span className={s.descriptionSpan}>{picture.likes}</span>
+        Likes:
+        <span className={s.descriptionSpan}>{picture.likes}</span>
       </p>
       <p className={s.descriptionText}>
         Author:

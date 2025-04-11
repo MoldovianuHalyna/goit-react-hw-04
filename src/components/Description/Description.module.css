@@ -3,6 +3,8 @@
   flex-direction: column;
   row-gap: 2px;
   padding: 10px;
+  font-size: 13px;
+  letter-spacing: normal;
 }
 .descriptionText {
   margin: 2px;

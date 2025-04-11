@@ -1,6 +1,6 @@
 .imageWrapper {
-  width: 300px;
-  height: auto;
+  width: 250px;
+  height: 300px;
   border: 1px solid black;
   border-radius: 4px;
   transition: all 250ms linear;
@@ -11,7 +11,22 @@
 
   img {
     width: 100%;
-    height: 237px;
+    height: 180px;
     object-fit: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .imageWrapper {
+    width: 300px;
+    height: 360px;
+    img {
+      height: 237px;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1248px;
   }
 }

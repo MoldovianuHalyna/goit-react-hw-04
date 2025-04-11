@@ -23,7 +23,9 @@ function App() {
       setIsLoading(true);
       try {
         const { results, totalPages } = await getPhotos(query, page);
-        setPictures([...pictures, ...results]);
+        setPictures((prev) => {
+          return [...prev, ...results];
+        });
         setTotalPages(totalPages);
       } catch (error) {
         setError(error.message);
